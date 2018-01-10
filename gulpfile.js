@@ -1,4 +1,18 @@
-var gulp = require('gulp');
+// Before you start the project copy skeleton files to the directory
+// then type: $ npm init
+// then enter the following code in gitbash: $ npm link gulp && npm link gulp-imagemin && npm link gulp-uglify && npm link gulp-sass && npm link gulp-concat && npm link gulp-autoprefixer && npm link browser-sync
+
+// packages to install  once only
+// $ npm install --global gulp-cli
+// $ npm install --global gulp-imagemin
+// $ npm install --global gulp-uglify
+// $ npm install --global gulp-sass
+// $ npm install --global gulp-concat
+// $ npm install --global gulp-autoprefixer
+// $ npm install --global browser-sync
+
+
+var gulp = require('gulp');                        
 var imagemin = require('gulp-imagemin');
 var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
